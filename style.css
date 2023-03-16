@@ -1,0 +1,45 @@
+.main{
+    font-family: "Quicksand";
+}
+
+.main img{
+ justify-content: center;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb( 183, 215, 244) ;
+    height: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Quicksand";
+    color: rgb(20,33,47);
+    transition: .5s;
+    padding-top: 10px;
+ 
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: rgb(63, 107, 91) ;
+}
+
+.hi_bear{
+    width: 400px;
+    height: 100%;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto 300px;
+    justify-content: center;
+}
+
+.main_colour{
+    font-family: "Quicksand";
+}
