@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
 .main{
     font-family: "Quicksand";
 }
@@ -11,7 +17,7 @@
     display: flex;
     flex-direction: row;
     background-color: rgb( 183, 215, 244) ;
-    height: 40px;
+    padding: 10px 15px;
 }
 
 .navbar a{
@@ -19,14 +25,15 @@
     font-size: 15px;
     font-family: "Quicksand";
     color: rgb(20,33,47);
-    transition: .5s;
-    padding-top: 10px;
- 
+    transition: box-shadow .8s ease-in-out;
+    padding: 12px 15px;
 }
 
+
 .navbar a:hover{
-    background-color: white;
-    color: rgb(63, 107, 91) ;
+    box-shadow: inset 0 -100px 0 0 white;
+    color:  rgb(20,33,47);
+
 }
 
 .hi_bear{
@@ -34,12 +41,45 @@
     height: 100%;
 }
 
-.main{
+.home_main{
     display: grid;
-    grid-template-columns: auto 300px;
+    grid-template-columns: auto auto;
+}
+
+
+.main{
+    font-family:'Quicksand';
+    padding-left: 150px;
+    padding-right: 150px;
+    display:flex;
+    flex-direction: column;
+}
+
+.main h1{
+    padding-top: 100px;
+    font-size: 50px;
+   
+}
+
+.main h3{
+    font-size: 25px;
+    padding-top: 80px;
+}
+
+.main img{
+    width: 800px;
+    height: 100%;
+    display: flex;
     justify-content: center;
 }
 
-.main_colour{
-    font-family: "Quicksand";
+.home_page__text{
+    text-align: center;
+    padding-top: 0px;
 }
+
+.home_page__text h1{
+    font-family: "Tilt Neon";
+    font-size: 60px;
+}
+
