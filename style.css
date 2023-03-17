@@ -117,3 +117,14 @@ body{
 .quicksand{
     word-spacing: 8px;
 }
+.graphics{
+    display:flex; 
+    flex-direction: row;
+    gap: 40px;
+}
+.graphics img{
+    width: 500px;
+}
+.layoutContainer img{
+    width: 500px;
+}
