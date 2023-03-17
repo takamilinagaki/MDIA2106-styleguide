@@ -124,7 +124,24 @@ body{
 }
 .graphics img{
     width: 500px;
+    height: 1000px;
 }
 .layoutContainer img{
     width: 500px;
+}
+
+/* Khalil's logo and assets */
+
+.imgcontainer.logo {
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+
+.imgcontainer.assets {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
